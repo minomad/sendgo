@@ -9,18 +9,6 @@
       </div>
       <Button variant="primary" class="mr-5">회원가입</Button>
       <Button variant="secondary">로그인</Button>
-      <!-- <div class="absolute top-24 right-[-20px]">
-        <div class="flex">
-          <img src="/1.png" alt="" class="w-64 h-[443px]" />
-          <img src="/2.png" alt="" class="w-64 h-[443px]"/>
-          <img src="/3.png" alt="" class="w-64 h-[443px]"/>
-        </div>
-        <div class="flex">
-          <img src="/4.png" alt="" class="w-64 h-[443px]"/>
-          <img src="/5.png" alt="" class="w-64 h-[443px]"/>
-          <img src="/6.png" alt="" class="w-64 h-[443px]"/>
-        </div>
-      </div> -->
     </article>
   </section>
 

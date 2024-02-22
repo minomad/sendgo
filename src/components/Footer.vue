@@ -1,7 +1,7 @@
 <template>
   <footer class="bg-[#222222] h-[316px]">
     <div
-      class="footerBorder ml-16 mr-16 pt-[69px] pb-8 text-[#EDEDED] flex items-center justify-around"
+      class="footerBorder mr-16 pt-[69px] pb-8 text-[#EDEDED] flex items-center justify-around"
     >
       <img src="/logo02.svg" alt="" width="142px" height="44px" />
       <div class="flex gap-14">
