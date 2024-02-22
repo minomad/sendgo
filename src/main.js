@@ -2,14 +2,14 @@ import { createApp } from 'vue';
 import { createRouter, createWebHistory } from 'vue-router';
 import App from './App.vue';
 import Home from './views/Home.vue';
-import Message from './views/Message.vue';
-import Credit from './views/Credit.vue';
+import MessagePage from './views/MessagePage.vue';
+import CreditPage from './views/CreditPage.vue';
 import './assets/style.css'
 
 const routes = [
   { path: '/', component: Home },
-  { path: '/message', component: Message },
-  { path: '/credit', component: Credit }
+  { path: '/message', component: MessagePage },
+  { path: '/credit', component: CreditPage }
 ];
 
 const router = createRouter({

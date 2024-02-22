@@ -1,5 +1,3 @@
-<script setup></script>
-
 <template>
   <header class="flex items-center gap-28 text-[#D9D9D9] bg-black h-20">
     <router-link to="/" class="ml-64 mr-16">
