@@ -9,12 +9,12 @@ export default {
   props: {
     variant: {
       type: String,
-      default: "primary",
+      default: 'primary',
     },
   },
   computed: {
     computedClasses() {
-      return ["btn", `btn-${this.variant}`, `btn-${this.size}`];
+      return ['btn', `btn-${this.variant}`, `btn-${this.size}`];
     },
   },
 };
@@ -26,16 +26,17 @@ export default {
   height: 65px;
   border-radius: 44px;
   opacity: 1;
-  color: #FFFFFF;
+  color: #ffffff;
 }
 
 .btn-primary {
-  background: #6250FF 0% 0% no-repeat padding-box;
+  background: #6250ff 0% 0% no-repeat padding-box;
 }
 
 .btn-secondary {
   background: #242424 0% 0% no-repeat padding-box;
-  box-shadow: inset 0px 3px 6px #00000003, 0px 3px 6px #0000001a;
+  box-shadow:
+    inset 0px 3px 6px #00000003,
+    0px 3px 6px #0000001a;
 }
-
 </style>

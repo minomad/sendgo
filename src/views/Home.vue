@@ -1,6 +1,6 @@
 <template>
   <section class="bg-black">
-    <h2 class="hidden">회원가입/로그인</h2>
+    <h2 class="sr-only">회원가입/로그인</h2>
 
     <div class="relative">
       <img src="/1.png" alt="" class="main01" />
@@ -12,9 +12,9 @@
       <div class="mainBg06"></div>
     </div>
 
-    <article class="px-64 h-[1075px]">
-      <div class="pt-[360px] pb-12">
-        <p class="text-[#FCFCFC] text-2xl">인터넷 문자 메세지 전송의 모든 것</p>
+    <article class="h-[1075px] px-64">
+      <div class="pb-12 pt-[360px]">
+        <p class="text-2xl text-[#FCFCFC]">인터넷 문자 메세지 전송의 모든 것</p>
         <p class="mainColor">가장 빠르고 안정적인</p>
         <p class="mainColor">문자 서비스 SENDGO</p>
       </div>
@@ -25,89 +25,75 @@
 
   <section class="pb-52">
     <h2 class="hidden">서비스안내</h2>
-    <article class="pt-52 flex flex-col items-center">
+    <article class="flex flex-col items-center pt-52">
       <figure class="pb-11">
         <img src="/icon01.png" alt="" class="" />
       </figure>
-      <div class="text-center pb-24">
+      <div class="pb-24 text-center">
         <p class="text-[56px]">복잡한 인터넷 문자 서비스를</p>
         <p class="text-[56px]">간편하게 만나보세요.</p>
-        <p class="text-[26px] text-secondary">
-          모든 종류의 인터넷 SMS를 편리하게.
-        </p>
+        <p class="text-[26px] text-secondary">모든 종류의 인터넷 SMS를 편리하게.</p>
       </div>
       <div class="flex gap-11">
         <Card>
-          <img src="/icon02.png" alt="" class="pt-14 pb-[10px]" />
+          <img src="/icon02.png" alt="" class="pb-[10px] pt-14" />
           <p class="text-[26px] font-bold">메시지 용량에</p>
-          <p class="text-[26px] font-bold pb-5">제한 받지 않고 전송</p>
-          <p class="text-xl text-[#6E7583]">
-            메시지 용량 걱정없이 단문 메시지는
-          </p>
-          <p class="text-xl text-[#6E7583]">
-            물론 장문, 사진까지 전송이 가능합니다.
-          </p>
+          <p class="pb-5 text-[26px] font-bold">제한 받지 않고 전송</p>
+          <p class="text-xl text-[#6E7583]">메시지 용량 걱정없이 단문 메시지는</p>
+          <p class="text-xl text-[#6E7583]">물론 장문, 사진까지 전송이 가능합니다.</p>
         </Card>
 
         <Card>
-          <img src="/icon03.png" alt="" class="pt-14 pb-[10px]" />
+          <img src="/icon03.png" alt="" class="pb-[10px] pt-14" />
           <p class="text-[26px] font-bold">모든 종류의</p>
-          <p class="text-[26px] font-bold pb-5">문자 메시지를 한번에</p>
-          <p class="text-xl text-[#6E7583]">
-            메시지 용량 걱정없이 단문 메시지는
-          </p>
-          <p class="text-xl text-[#6E7583]">
-            물론 장문, 사진까지 전송이 가능합니다.
-          </p>
+          <p class="pb-5 text-[26px] font-bold">문자 메시지를 한번에</p>
+          <p class="text-xl text-[#6E7583]">메시지 용량 걱정없이 단문 메시지는</p>
+          <p class="text-xl text-[#6E7583]">물론 장문, 사진까지 전송이 가능합니다.</p>
         </Card>
 
         <Card>
-          <img src="/icon04.png" alt="" class="pt-14 pb-[10px]" />
+          <img src="/icon04.png" alt="" class="pb-[10px] pt-14" />
           <p class="text-[26px] font-bold">간편한 광고</p>
-          <p class="text-[26px] font-bold pb-5">문자 메시지 설정</p>
+          <p class="pb-5 text-[26px] font-bold">문자 메시지 설정</p>
           <p class="text-xl text-[#6E7583]">광고 설정 버튼 클릭 한번으로</p>
           <p class="text-xl text-[#6E7583]">080 수신 거부 번호가 적용됩니다.</p>
         </Card>
       </div>
     </article>
 
-    <article class="pt-[250px] flex flex-col items-center">
+    <article class="flex flex-col items-center pt-[250px]">
       <figure class="">
         <img src="/icon05.png" alt="" class="" />
       </figure>
-      <div class="text-center pb-24">
+      <div class="pb-24 text-center">
         <p class="text-[56px]">샌드고의 다양한</p>
         <p class="text-[56px]">기능들을 살펴보세요</p>
-        <p class="text-[26px] text-secondary">
-          고객님들의 입장에서 고민하였습니다.
-        </p>
+        <p class="text-[26px] text-secondary">고객님들의 입장에서 고민하였습니다.</p>
       </div>
 
       <div class="flex gap-[54px]">
         <div
-          class="w-[626px] h-[597px] rounded-[25px] bg-[#F8F9FA] flex flex-col pl-[54px] text-[34px] font-bold"
+          class="flex h-[597px] w-[626px] flex-col rounded-[25px] bg-[#F8F9FA] pl-[54px] text-[34px] font-bold"
         >
           <p class="pt-[72px]">자주 전송하는 내용이 있나요?</p>
           <p class="text-[#727B88]">템플릿으로 메시지 내용을</p>
           <p class="text-[#727B88]">저장하여 간편하게 전송하세요.</p>
-          <img src="/feat01.png" alt="" class="pt-16 h-[372px]" />
+          <img src="/feat01.png" alt="" class="h-[372px] pt-16" />
         </div>
 
         <div
-          class="w-[750px] h-[597px] rounded-[25px] bg-[#E9EBFD] flex flex-col pl-[54px] text-[34px] font-bold"
+          class="flex h-[597px] w-[750px] flex-col rounded-[25px] bg-[#E9EBFD] pl-[54px] text-[34px] font-bold"
         >
-          <p class="pt-[72px] creditColor">
-            크레딧 구매 시, 보너스 크레딧 증정
-          </p>
+          <p class="creditColor pt-[72px]">크레딧 구매 시, 보너스 크레딧 증정</p>
           <p class="text-[#7079CB]">크레딧 상품을 구매하면 상품 별</p>
           <p class="text-[#7079CB]">보너스 크레딧을 증정합니다.</p>
-          <img src="/feat02.png" alt="" class="pt-16 w-[644px] h-[372px]" />
+          <img src="/feat02.png" alt="" class="h-[372px] w-[644px] pt-16" />
         </div>
       </div>
 
       <div class="flex gap-[54px] pt-[50px]">
         <div
-          class="w-[855px] h-[717px] rounded-[25px] bg-[#DBE5FF] flex flex-col pl-[54px] text-[34px] font-bold"
+          class="flex h-[717px] w-[855px] flex-col rounded-[25px] bg-[#DBE5FF] pl-[54px] text-[34px] font-bold"
         >
           <p class="pt-[72px] text-[#375984]">전송 후 바로 발송확인 기능</p>
           <p class="text-[#698AB1]">메시지 전송 후 바로 발송현황 창에서</p>
@@ -116,49 +102,47 @@
         </div>
 
         <div
-          class="featColor w-[520px] h-[717px] rounded-[25px] flex flex-col pl-[54px] text-[34px] font-bold"
+          class="featColor flex h-[717px] w-[520px] flex-col rounded-[25px] pl-[54px] text-[34px] font-bold"
         >
           <p class="pt-[72px] text-[#6C3111]">누르면 바로 전송완료</p>
           <p class="text-[#6F6F6F]">누르자마자 수신인에게</p>
           <p class="text-[#6F6F6F]">바로 전달됩니다</p>
-          <img src="/feat04.png" alt="" class="pt-14 w-[390px]" />
+          <img src="/feat04.png" alt="" class="w-[390px] pt-14" />
         </div>
       </div>
     </article>
 
-    <article class="pt-[250px] flex flex-col items-center">
+    <article class="flex flex-col items-center pt-[250px]">
       <figure class="">
         <img src="/icon06.png" alt="" class="" />
       </figure>
-      <div class="text-center pb-24">
+      <div class="pb-24 text-center">
         <p class="text-[56px]">정확도와 다양함은 물론</p>
         <p class="text-[56px]">신뢰할 수 있는 보안까지</p>
-        <p class="text-[26px] text-secondary">
-          고객님들의 간편함을 고민하였습니다
-        </p>
+        <p class="text-[26px] text-secondary">고객님들의 간편함을 고민하였습니다</p>
       </div>
 
-      <div class="flex gap-[54px] pt-[50px] pb-11">
+      <div class="flex gap-[54px] pb-11 pt-[50px]">
         <div
-          class="w-[688px] h-[597px] rounded-[25px] bg-[#DCEFF4] flex flex-col pl-[54px] text-[34px] font-bold"
+          class="flex h-[597px] w-[688px] flex-col rounded-[25px] bg-[#DCEFF4] pl-[54px] text-[34px] font-bold"
         >
           <p class="pt-[72px]">일반 SMS는 기본, 카카오톡까지</p>
           <p class="text-[#516B71]">종류와 상관없이 모두 전송해 드립니다</p>
-          <img src="/feat05.png" alt="" class="pt-11 w-[340px] mx-[120px]" />
+          <img src="/feat05.png" alt="" class="mx-[120px] w-[340px] pt-11" />
         </div>
 
         <div
-          class="w-[688px] h-[597px] rounded-[25px] bg-[#FBFBEF] flex flex-col pl-[54px] text-[34px] font-bold"
+          class="flex h-[597px] w-[688px] flex-col rounded-[25px] bg-[#FBFBEF] pl-[54px] text-[34px] font-bold"
         >
           <p class="pt-[72px] text-[#6C3111]">강력한 보안을 제공합니다.</p>
           <p class="text-[#6F6F6F]">신뢰할 수 있는 최신의 보안 시스템을</p>
           <p class="text-[#6F6F6F]">적용하여 개인정보를 보호합니다</p>
-          <img src="/feat06.png" alt="" class="pt-16 mr-32 w-[250px] mx-auto" />
+          <img src="/feat06.png" alt="" class="mx-auto mr-32 w-[250px] pt-16" />
         </div>
       </div>
 
       <div
-        class="w-[1420px] h-[495px] rounded-[25px] bg-[#F8F9FA] flex flex-col items-center pl-[54px] text-[34px] font-bold"
+        class="flex h-[495px] w-[1420px] flex-col items-center rounded-[25px] bg-[#F8F9FA] pl-[54px] text-[34px] font-bold"
       >
         <p class="pt-[72px]">놀라운 수신율을 경험해 보세요</p>
         <p class="text-[#727B88]">샌드고의 정확한 수신율은 99.8%에 달합니다</p>
@@ -167,21 +151,21 @@
     </article>
   </section>
 
-  <section class="bg-black h-[1080px]">
+  <section class="h-[1080px] bg-black">
     <h2 class="hidden">메시지 바로가기</h2>
     <div class="messageColor">
       <p>비지니스 광고의 시작</p>
       <p>이제 샌드고와 함께 하세요</p>
     </div>
-    <div class="text-center pt-16">
+    <div class="pt-16 text-center">
       <Button>메세지 바로가기</Button>
     </div>
   </section>
 </template>
 
 <script>
-import Button from "../components/Button.vue";
-import Card from "../components/Card.vue";
+import Button from '../components/Button.vue';
+import Card from '../components/Card.vue';
 
 export default {
   components: {
@@ -209,8 +193,8 @@ export default {
 }
 
 .featColor {
-  background: transparent linear-gradient(180deg, #fafaee 0%, #fbfbf0 100%) 0%
-    0% no-repeat padding-box;
+  background: transparent linear-gradient(180deg, #fafaee 0%, #fbfbf0 100%) 0% 0% no-repeat
+    padding-box;
 }
 
 .messageColor {
@@ -226,7 +210,7 @@ export default {
 }
 
 .main01 {
-  background: #6250FF;
+  background: #6250ff;
   border-radius: 25px;
   position: absolute;
   top: 220px;
@@ -236,7 +220,7 @@ export default {
 }
 
 .main02 {
-  background: #37383E;
+  background: #37383e;
   border-radius: 25px;
   position: absolute;
   top: 32px;
@@ -245,7 +229,7 @@ export default {
   height: 524px;
 }
 .main03 {
-  background: #6250FF;
+  background: #6250ff;
   border-radius: 25px;
   position: absolute;
   top: -222px;
@@ -261,7 +245,7 @@ export default {
   height: 388px;
 }
 .main05 {
-  background: #6250FF;
+  background: #6250ff;
   border-radius: 25px;
   position: absolute;
   top: 571px;
@@ -278,7 +262,7 @@ export default {
 }
 
 .mainBg06 {
-  background: #37383E;
+  background: #37383e;
   border-radius: 25px;
   position: absolute;
   top: 328px;
