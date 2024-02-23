@@ -1,8 +1,19 @@
 <template>
   <section class="bg-black">
     <h2 class="hidden">회원가입/로그인</h2>
-    <article class="px-64 h-[996px]">
-      <div class="pt-72 pb-12">
+
+    <div class="relative">
+      <img src="/1.png" alt="" class="main01" />
+      <img src="/2.png" alt="" class="main02" />
+      <img src="/3.png" alt="" class="main03" />
+      <img src="/4.png" alt="" class="main04" />
+      <img src="/5.png" alt="" class="main05" />
+      <img src="/6.png" alt="" class="main06 z-10" />
+      <div class="mainBg06"></div>
+    </div>
+
+    <article class="px-64 h-[1075px]">
+      <div class="pt-[360px] pb-12">
         <p class="text-[#FCFCFC] text-2xl">인터넷 문자 메세지 전송의 모든 것</p>
         <p class="mainColor">가장 빠르고 안정적인</p>
         <p class="mainColor">문자 서비스 SENDGO</p>
@@ -162,7 +173,7 @@
       <p>비지니스 광고의 시작</p>
       <p>이제 샌드고와 함께 하세요</p>
     </div>
-    <div class="text-center pt-16"> 
+    <div class="text-center pt-16">
       <Button>메세지 바로가기</Button>
     </div>
   </section>
@@ -212,5 +223,67 @@ export default {
   padding-top: 386px;
   color: transparent;
   text-align: center; /* 텍스트 가운데 정렬 */
+}
+
+.main01 {
+  background: #6250FF;
+  border-radius: 25px;
+  position: absolute;
+  top: 220px;
+  left: 1010px;
+  width: 254px;
+  height: 443px;
+}
+
+.main02 {
+  background: #37383E;
+  border-radius: 25px;
+  position: absolute;
+  top: 32px;
+  left: 1286px;
+  width: 254px;
+  height: 524px;
+}
+.main03 {
+  background: #6250FF;
+  border-radius: 25px;
+  position: absolute;
+  top: -222px;
+  left: 1562px;
+  width: 254px;
+  height: 524px;
+}
+.main04 {
+  position: absolute;
+  top: 687px;
+  left: 1010px;
+  width: 254px;
+  height: 388px;
+}
+.main05 {
+  background: #6250FF;
+  border-radius: 25px;
+  position: absolute;
+  top: 571px;
+  left: 1286px;
+  width: 254px;
+  height: 504px;
+}
+.main06 {
+  position: absolute;
+  top: 328px;
+  left: 1562px;
+  width: 340px;
+  height: 609px;
+}
+
+.mainBg06 {
+  background: #37383E;
+  border-radius: 25px;
+  position: absolute;
+  top: 328px;
+  left: 1562px;
+  width: 254px;
+  height: 609px;
 }
 </style>

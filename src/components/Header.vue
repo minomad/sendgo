@@ -1,7 +1,7 @@
 <template>
   <header
     :class="[headerClass, textClass]"
-    class="flex items-center gap-20 h-20 fixed w-full"
+    class="flex items-center gap-20 h-20 fixed w-full z-50"
   >
     <router-link to="/" class="ml-64 mr-16">
       <img :src="logoSrc" alt="" width="142px" height="44px" />
@@ -22,13 +22,14 @@ import { useRoute } from "vue-router";
 const route = useRoute();
 const headerClass = ref(route.path === "/" ? "bg-black" : "bg-white");
 const textClass = ref(route.path === "/" ? "text-white" : "text-black");
-const logoSrc = ref("/logo02.svg");
+const logoSrc = ref(route.path === "/" ? "/logo02.svg" : "/logo.svg");
 
 watch(
   () => route.path,
   (newValue) => {
     headerClass.value = newValue === "/" ? "bg-black" : "bg-white";
     textClass.value = newValue === "/" ? "text-white" : "text-black";
+    logoSrc.value = newValue === "/" ? "/logo02.svg" : "/logo.svg";
   }
 );
 
