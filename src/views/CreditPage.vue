@@ -1,7 +1,7 @@
 <template>
-  <section>
+  <section class="pt-20">
     <h2 class="hidden">크레딧 페이지</h2>
-    <div class="h-20 flex items-center gap-10 justify-end pr-48 text-xl">
+    <div class="h-20 flex items-center gap-10 justify-end pr-72 text-xl">
       <button class="text-[#4F44F0] bg-[#E1E7FD] rounded-xl w-[155px] h-[56px]">
         크레딧 구매
       </button>
